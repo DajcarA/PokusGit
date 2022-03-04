@@ -22,7 +22,9 @@ namespace PokusGit
             int cislo1 = int.Parse(textBox1.Text);
             int cislo2 = int.Parse(textBox2.Text);
             int soucet = cislo1 + cislo2;
+            int rozdil = cislo1 - cislo2;
             MessageBox.Show(soucet.ToString());
+            MessageBox.Show(rozdil.ToString());
         }
     }
 }

@@ -35,5 +35,17 @@ namespace PokusGit
         {
             MessageBox.Show("ITA2, Aleš Dajčar");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int x= int .Parse(textBox3.Text);
+            int faktorial = 1;
+            while(x > 0)
+            {
+                faktorial *= x;
+                --x;
+            }
+            MessageBox.Show(faktorial.ToString());
+        }
     }
 }

@@ -30,5 +30,10 @@ namespace PokusGit
             MessageBox.Show(soucin.ToString());
             MessageBox.Show(podil.ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ITA2, Aleš Dajčar");
+        }
     }
 }

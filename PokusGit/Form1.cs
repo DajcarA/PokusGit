@@ -47,5 +47,19 @@ namespace PokusGit
             }
             MessageBox.Show(faktorial.ToString());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Přidejte button4, textbox4 a textbox5. V obstuze tlačítka naprogramujte mocninu čísla v textBox4 na číslo v textboxu5.
+            int a = int.Parse(textBox4.Text);
+            int b = int.Parse(textBox5.Text);
+            int mocnina = 1;
+            for(int i = 0; i <b; ++i)
+            {
+                mocnina *= a;
+            }
+            MessageBox.Show(mocnina.ToString());
+
+        }
     }
 }
